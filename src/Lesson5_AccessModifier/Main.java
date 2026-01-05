@@ -43,17 +43,15 @@ package Lesson5_AccessModifier;
 //    }
 //}
 
-//Person
+//
+
+
+// Car
 public class Main {
     public static void main(String[] args) {
-        Person.change();
-
-        Person s1 = new Person(111, "Hoang");
-        Person s2 = new Person(111, "Khanh");
-        Person s3 = new Person(111, "Nam");
-
-        s1.display();
-        s2.display();
-        s3.display();
+        Car car1 = new Car("Mazda 3","Skyactiv 3");
+        System.out.println(Car.numberOfCars);
+        Car car2 = new Car("Mazda 6","Skyactiv 6");
+        System.out.println(Car.numberOfCars);
     }
 }
