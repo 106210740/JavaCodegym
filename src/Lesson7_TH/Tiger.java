@@ -1,0 +1,8 @@
+package Lesson7_TH;
+
+public class Tiger extends Animal {
+    @Override
+    public String makeSound() {
+        return "Tiger: roar";
+    }
+}

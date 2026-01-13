@@ -1,4 +1,4 @@
-package Lessin7_Interface;
+package Lesson7_Interface;
 
 public class Duck implements Flyable, Swimable {
     @Override
